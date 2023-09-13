@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+
+.main
+{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    
+}
+
+.elem{
+    height: 189.4px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elem h1{
+    z-index: 9;
+}
+.elem img{
+height: 120px;
+width: 120px;
+border-radius: 50%;
+object-fit: cover;
+object-position: center;
+position: absolute;
+transition:all linear 0.3s;
+
+}
